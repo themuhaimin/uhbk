@@ -1,0 +1,139 @@
+/**
+ * --------------------------------------------------------------
+ * CSS Soal Ujian
+ * untuk halaman login
+ * --------------------------------------------------------------
+ */
+ .navbar-custom {
+    background-color:#3c8dbc;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+#no {
+width:100px;
+height:20px;
+background:#ecf0f5;
+margin:-10px 0 0 30px;
+font-weight:bold;
+padding-left:10px;
+float:left;
+}
+#soal_no {
+width:20px;
+height:20px;
+background:#ecf0f5;
+margin:-10px 0 0 -18px;
+font-weight:bold;
+float:left;
+}
+#nav_sidebar {
+width:100px;
+height:20px;
+background:#ecf0f5;
+margin:-10px 0 0 30px;
+text-align:center;
+font-weight:bold;
+}
+#wrapper{
+background:#ecf0f5;
+height: 570px;;
+width:95%;
+margin:-20px auto;
+}
+#main{
+background:#ecf0f5;
+width:80%;
+height:95%;
+float:left;
+border:solid 2px;
+margin:10px auto;
+}
+#sidebar {
+background:#d1e0e2;
+width:19%;
+height:95%;
+float:right;
+border:solid 2px;
+margin:10px auto;
+}
+#soal {
+margin:30px 30px 30px 40px;
+}
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+	background:#FFF;
+	border-top:solid 1px #d2d6de;
+	}
+.main-footer {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  z-index: 820;
+  padding: 15px 2.5%;
+}
+body {
+width:100%;
+height: 100%;
+background:#ecf0f5;
+}
+#navigasi{
+margin:9px;
+}
+#navigasi .btn{
+margin:3px;
+width:50px;
+height:50px;
+}
+/*batas soal dari atas*/
+.tab {
+margin-top:-50px;
+}
+@font-face {
+    font-family: digitalClock;
+    src: url("../clock-font/digital-7.ttf");
+}
+#submit {
+float:right;
+text-align:center;
+margin:4px 1% 0 0;
+}
+.clock {
+font-family: digital-7;
+font-size:1.8em;
+width:19%;
+height:40px;
+border:solid 2px;
+float:right;
+padding:15px 0 0 auto;
+text-align:center;
+font-family:digitalClock;
+font-weight:bold;
+}
+#top {
+margin:4px 2.5% auto;
+}
+#top  img{
+width:40px;
+float:left;
+}
+#title {
+font-size:1.7em;
+float:left;
+font-weight:bold;
+padding:5px 0 0 8px;
+}

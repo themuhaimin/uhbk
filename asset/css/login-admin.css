@@ -1,0 +1,114 @@
+/**
+ * --------------------------------------------------------------
+ * CSS style aplikasi Absensi2014
+ * untuk halaman login
+ * --------------------------------------------------------------
+ */
+ body{
+ background:#d5e9f8;
+ }
+#login_box {
+	position:absolute;
+	top: 35%;
+	left: 41%;
+	width:40em;
+	height:28em;
+	margin-top: -8em; /*set to a negative number 1/2 of your height*/
+	margin-left: -13em; /*set to a negative number 1/2 of your width*/
+	border: 3px solid #16882b;
+	background-color: #5df179;
+	border-radius:5px;
+}
+#logo{
+width:100%; height:219px;
+background:url(../images/login-admin.jpg);
+}
+#form {
+margin :40px 10px 5px 10px;
+}
+.text{
+height:20px;
+width:81%;
+border:none;
+}
+h1{
+	background-color:#5df179;
+	border-bottom:1px solid #7F5F00;
+	font-size:120%;
+	font-weight:bolder;
+	color:#000;	
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:5px;
+	text-align:left;
+}
+
+#login_form{
+	padding:10px;
+}
+
+#login_form p label{
+	display:block;
+	float:left;
+	width:80px;
+}
+
+#login_form p{
+	margin-bottom:10px;
+}
+
+#login_form p#message{
+    margin-left: 60px;
+}
+#tombol{
+width:103%;
+margin-left:-8px;
+height:40px;
+background:#b8eec2;
+}
+#submit{
+	padding:0 4px;
+	border: 2px solid #406589;
+	margin:5px 5px 10px 0;
+	width:60px;
+	height:30px;
+	float:right;
+	background:url(../images/tombol.png);
+	border-radius:3px;
+	font-weight:bold;
+	color:#fff;background-color:#0d8724;border-color:#2e6da4
+}
+#submit:hover{
+	border: 2px solid #002c67;
+	cursor:aero;
+	}
+
+ .field_error, #message{
+	font-size:12px;
+	color:#F00;
+}
+
+#login_box #form_error_message{
+	margin-bottom:20px;
+}
+
+ .field_error{
+	clear:both;
+}
+
+.form_field{
+	border:none solid 1px;
+}
+#error{
+	position:absolute;
+	top: 30%;
+	left: 41%;
+	width:40em;
+	height:28em;
+	margin-top: -8em; /*set to a negative number 1/2 of your height*/
+	margin-left: -13em; /*set to a negative number 1/2 of your width*/
+	text-align:center;
+}
+.form_field:focus{
+	background-color:#a7deb1;
+}
